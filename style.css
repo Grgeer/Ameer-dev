@@ -1,3 +1,9 @@
 body {
     background-color: #e9e9e9;
   }
+
+/*تغيير لون reserved في التايتل */
+#reserved{
+ color: red ; 
+ font-weight: bold;
+}
