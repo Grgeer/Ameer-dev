@@ -1,10 +1,26 @@
-/* لون خلفية الموقع */
 body {
     background-color: #F7F7F7;
   }
 
+
 /*تغيير لون reserved في التايتل */
 #reserved{
- color: red ; 
+ color:#ea0000; 
  font-weight: bold;
+}
+
+/* تغيير حجم اللوجو */
+#logo1 {
+    width: 300px; 
+}
+/* تغيير حجم اللوجو*/
+p {
+  color: #010101;
+  font-weight: bold;
+}
+
+.bordered-section {
+    border-bottom: 3px solid #2C3E50;
+    padding: 6%;
+    margin: 3%;
 }
