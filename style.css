@@ -1,26 +1,61 @@
 body {
     background-color: #F7F7F7;
-  }
+}
 
+/* تغيير لون reserved في التايتل */
+#rights {
+  position: absolute;
+  top: 3%;
+}
 
-/*تغيير لون reserved في التايتل */
-#reserved{
- color:#ea0000; 
- font-weight: bold;
+#reserved {
+  position: absolute;
+  top: 3%;
+  left: 20%;
+  color: #ea0000; 
+  font-weight: bold;
 }
 
 /* تغيير حجم اللوجو */
 #logo1 {
-    width: 300px; 
+    width: 30%; 
 }
-/* تغيير حجم اللوجو*/
+
+/* تغيير حجم النص في البراجرافات */
 p {
   color: #010101;
   font-weight: bold;
+  font-size: 1.2em;
 }
 
+/* تغيير لون البورده */
 .bordered-section {
-    border-bottom: 3px solid #2C3E50;
+    border-bottom: 3px solid #264564;
     padding: 6%;
     margin: 3%;
+}
+
+/* تغيير موضع المنيو العلوية */
+.menu {
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #4CAF50;
+  text-align: center;
+}
+
+.menu li {
+  display: inline-block;
+  padding: 10px;
+  list-style: none;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
 }
