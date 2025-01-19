@@ -1,61 +1,45 @@
-body {
-    background-color: #F7F7F7;
+/*استيراد خط بوبينز*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*تظبيت كل عناصر الموقع*/
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
-/* تغيير لون reserved في التايتل */
-#rights {
-  position: absolute;
-  top: 3%;
-}
-
-#reserved {
-  position: absolute;
-  top: 3%;
-  left: 20%;
-  color: #ea0000; 
-  font-weight: bold;
-}
-
-/* تغيير حجم اللوجو */
-#logo1 {
-    width: 30%; 
-}
-
-/* تغيير حجم النص في البراجرافات */
-p {
-  color: #010101;
-  font-weight: bold;
-  font-size: 1.2em;
-}
-
-/* تغيير لون البورده */
-.bordered-section {
-    border-bottom: 3px solid #264564;
-    padding: 6%;
-    margin: 3%;
-}
-
-/* تغيير موضع المنيو العلوية */
-.menu {
-  color: white;
+/*القائمة العلوية*/
+header{
+  background-color: #f0f0f0;
+  width:100%
   position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  background-color: #4CAF50;
-  text-align: center;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 200px;
 }
-
-.menu li {
-  display: inline-block;
-  padding: 10px;
-  list-style: none;
-}
-
-.menu li a {
+/*اللوجو في القائمة العلوية*/
+.logo{
   text-decoration: none;
-  color: white;
-  font-weight: bold;
+  color: #3a6cf4;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.8em;
+}
+
+/*القائمة العلوية كامله*/
+.navigation a{
+  color: #3a6cf4;
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: 500;
+  padding-left: 30px;
+}
+
+/*لما احط الماوس يتغير اللون*/
+.navigation a:hover{
+  color: #601cfc;
 }
