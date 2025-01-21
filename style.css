@@ -68,9 +68,9 @@ section{
 .main h2 span{
   display: inline-block;
   margin-top: 10px;
-color: #4c9eff;
-font-size: 3em;
-font-weight: 600;
+  color: #4c9eff;
+  font-size: 3em;
+  font-weight: 600;
 }
 
 .main h3{
@@ -125,11 +125,15 @@ font-weight: 600;
 .card{
   background-color: #fff;
   width: 21.5em;
-  box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
-    border-radius: 10px;
-    padding: 25px;
-    margin: 15px;
-    transition: 0.7s ease;
+  box-shadow: 0 5px 25px rgba(1, 1, 1, 0.15);
+  border-radius: 10px;
+  padding: 25px;
+  margin: 15px;
+  transition: 0.7s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .card:hover{
@@ -138,8 +142,12 @@ font-weight: 600;
 
 .icon{
   color: #3a6cf4;
-  font-size: 4em;
+  font-size: 2.5em;
   text-align: center;
+  padding: 5px;
+  display: flex; /* لتفعيل Flexbox */
+  align-items: center; /* التوسيط عمودياً */
+  justify-content: center; /* التوسيط أفقياً */
 }
 
 .info{
